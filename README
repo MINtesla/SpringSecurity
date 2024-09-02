@@ -1,0 +1,19 @@
+JWT Security Implementation
+Overview
+In this update, we have integrated JSON Web Token (JWT) authentication into the project. JWT is a compact, URL-safe means of representing claims to be transferred between two parties. It allows you to securely transmit information between parties as a JSON object, which can be verified and trusted because it is digitally signed.
+
+What is JWT?
+JSON Web Tokens are used for securely transmitting information between parties as a JSON object. They are signed using a cryptographic algorithm to ensure the integrity and authenticity of the data. JWTs are commonly used for authentication and authorization.
+
+Testing
+Ensure you test the JWT implementation thoroughly:
+
+Test token generation and validation.
+Verify that unauthorized requests are properly handled.
+Ensure that JWT expiration and refresh mechanisms work as expected.
+Future Enhancements
+Token Refresh: Implement a refresh token mechanism to extend user sessions.
+Additional Security: Explore additional security measures such as token blacklisting or revocation.
+Additional Resources
+JWT Official Website
+Spring Security JWT Documentation
